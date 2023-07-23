@@ -12,7 +12,7 @@
 </ul>
 
 <div>
-<img src="images/specs.png">
+<img src="images/specs_image.png">
 </div>
 
 <h3>Bootloader:</h3>
