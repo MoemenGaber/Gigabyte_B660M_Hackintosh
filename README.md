@@ -16,6 +16,8 @@
 </div>
 
 <h3>Bootloader:</h3>
+PS: These Opencore files are signed via Windows WSL, this will enable you to boot OpenCore while Secure boot option is active in your Motherboard, You don't need to do anything, just enable the option and boot!
+
 <b>Opencore 0.9.3 — iMacPro1,1</b>
 <hr>
 <h3>Installation Steps:</h3>
