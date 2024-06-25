@@ -4,7 +4,7 @@
 <li>CPU: Intel Core i5 12400</li>
 <li>RAM: Crucial 32GB 3200 DDR4 (Kit of 2)</li>
 <li>Motherboard: Gigabyte B660M DS3H AX DDR4</li>
-<li>GPU: Gigabyte Nvidia GT 730 GDDR5</li>
+<li>GPU: Sapphire Radeon RX 480 8GB</li>
 <li>SSD: Crucial P3 SSD NVME</li>
 <li>Wifi/Bluetooth: Intel® Wi-Fi AX211 / Intel Bluetooth 5.2</li>
 <li>Case / PSU: Case XIGMATEK Master X GAMING
@@ -18,7 +18,7 @@
 <h3>Bootloader:</h3>
 PS: These Opencore files are signed via Windows WSL, this will enable you to boot OpenCore while Secure boot option is active in your Motherboard, You don't need to do anything, just enable the option and boot!
 
-<b>Opencore 0.9.3 — iMacPro1,1</b>
+<b>Opencore 1.0.0 — iMacPro1,1</b>
 <hr>
 <h3>Installation Steps:</h3>
 All the required steps are from the official open core guide, please follow it if you need to get the best results, these files only to help you as a simple guide, please use your own if you faced any issues or you have any other hardware.
@@ -36,7 +36,6 @@ All the required steps are from the official open core guide, please follow it i
 <b>Enable:</b>
 <ul>
 <li>VT-x</li>
-<li>Above 4G decoding</li>
 <li>Hyper-Threading</li>
 <li>Execute Disable Bit</li>
 <li>OS type: (Windows 10 Feautres: Ohter)</li>
@@ -51,21 +50,28 @@ All the required steps are from the official open core guide, please follow it i
 
 <b>Kexts:</b>
 
-<li>Airportltlwm</li>
-<li>AppleAlc</li>
-<li>IntelBluetoothFirmware</li>
-<li>IntelBluetoothInjector</li>
-<li>Lilu</li>
+<li>AppleALC</li>
+<li>BlueToolFixup</li>
 <li>CPUFriend</li>
-<li>NVMeFix ( If you have NVME only )</li>
+<li>CpuTscSync</li>
+<li>HibernationFixup</li>
+<li>IntelBluetoothFirmware</li>
+<li>IntelBTPatcher</li>
+<li>itlwm</li>
+<li>Lilu</li>
+<li>NVMeFix</li>
+<li>RadeonSensor</li>
 <li>RestrictEvents</li>
 <li>SMCProcessor</li>
+<li>SMCRadeonGPU</li>
 <li>SMCSuperIO</li>
-<li>USBInjectAll</li>
+<li>USBToolBox</li>
+<li>UTBDefault</li>
 <li>VirtualSMC</li>
 <li>WhateverGreen</li>
+
 
 <hr>
 All of these steps are identical to Opencore Comet lake, but with some modifications, you should get the same ACPI files and it's included on my repo, it's generic not related to my CPU or manually generated, you can generate your own BTW.
 <br>
-<img src="images/benchmark-sanoma.png">
+<img src="images/benchmark_sanoma.png">
