@@ -12,7 +12,7 @@
 </ul>
 
 <div>
-<img src="images/specs_image.png">
+<img src="images/specs_image_sanoma.png">
 </div>
 
 <h3>Bootloader:</h3>
@@ -68,4 +68,4 @@ All the required steps are from the official open core guide, please follow it i
 <hr>
 All of these steps are identical to Opencore Comet lake, but with some modifications, you should get the same ACPI files and it's included on my repo, it's generic not related to my CPU or manually generated, you can generate your own BTW.
 <br>
-<img src="images/benchmark.png">
+<img src="images/benchmark-sanoma.png">
